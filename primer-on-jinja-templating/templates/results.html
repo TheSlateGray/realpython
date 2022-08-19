@@ -1,14 +1,18 @@
-{# templates/results.html #}
+{# templates/results.hmtl #}
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="results.html" />
+    <meta name="keywords" content="Jinja2, Flask" />
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <title>{{ title }}</title>
   </head>
 
   <body>
-    <h1>{{ test_name }} Results</h1>
+    <h1>{{ test_name }} {{ title }}</h1>
     <ul>
       {% for student in students %}
       <li>

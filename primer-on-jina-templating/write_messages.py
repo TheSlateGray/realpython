@@ -24,13 +24,13 @@ for student in students:
         message.write(content)
         print(f"... wrote {filename}")
 
-# results_filename = "student_results.html"
-# results_template = environment.get_template("results.html")
-# context = {
-#     "students": students,
-#     "test_name": test_name,
-#     "max_score": max_score,
-# }
-# with open(results_filename, mode="w", encoding="utf-8") as results:
-#     results.write(results_template.render(context))
-#     print(f"... wrote {results_filename}")
+results_filename = "students_results.html"
+results_template = environment.get_template("results.html")
+context = {
+    "students": students,
+    "test_name": test_name,
+    "max_score": max_score,
+}
+with open(results_filename, mode="w", encoding="utf-8") as results:
+    results.write(results_template.render(context))
+    print(f"... wrote {results_filename}")

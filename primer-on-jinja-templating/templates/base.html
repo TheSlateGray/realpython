@@ -8,10 +8,12 @@
     <meta name="description" content="Primer on Jinja Templating." />
     <meta name="keywords" content="Jinja2, Flask" />
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
-    <title>{{ title }}</title>
+    <title>{% block title %}{{ title }}{% endblock title %}</title>
   </head>
 
   <body>
+    {% block content %}
     <h1>Welcome to {{ title }}</h1>
+    {% endblock content %}
   </body>
 </html>

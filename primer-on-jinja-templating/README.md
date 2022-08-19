@@ -1,3 +1,5 @@
+I ran out of time today and left off at [Include a Navigation Menu](https://realpython.com/primer-on-jinja-templating/#include-a-navigation-menu)
+
 # Primer on Jinja Templating
 
 This repository holds the code from the Real Python [Primer on Jinja Templating](https://realpython.com/primer-on-jinja-templating/) tutorial.
@@ -40,7 +42,7 @@ To see your home page, visit `http://127.0.0.1:5000`.
 - Conditionals are set as `{% if %}`, `{% else %}`, `{% endif %}` blocks.
 - Loops are set in `{% for loop in loops %}` to `{% endfor %}` blocks.
 - "Using `context` as a name for the collection that stores the variables for a template is a convention.
-- `**` unpacks a dictionary. I should have known this but now I know why. [PEP 448](https://peps.python.org/pep-0448/)
+- `**` unpacks a dictionary. [PEP 448](https://peps.python.org/pep-0448/)
 
 ## Original Author
 

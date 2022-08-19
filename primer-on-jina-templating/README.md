@@ -1,6 +1,6 @@
 # Primer on Jinja Templating
 
-This repository holds the code for the Real Python [Primer on Jinja Templating](https://realpython.com/primer-on-jinja-templating/) tutorial.
+This repository holds the code from the Real Python [Primer on Jinja Templating](https://realpython.com/primer-on-jinja-templating/) tutorial.
 
 ## Dependencies
 
@@ -23,7 +23,7 @@ Alternatively, you can install the pinned dependencies from `requirements.txt`:
 (venv) $ python -m pip install -r requirements.txt
 ```
 
-This command will install the versions used in the tutorial of Jinja, Flask, and their dependencies.
+This command will install the versions used in the tutorial of Jinja, Flask, and the code formatting tools.
 
 ## Run the Web App
 
@@ -35,7 +35,7 @@ You can start your Flask development server by running `app.py` as a script:
 
 To see your home page, visit `http://127.0.0.1:5000`.
 
-## Author
+## Original Author
 
 - **Philipp Acsany**, E-mail: [philipp@realpython.com](philipp@realpython.com)
 

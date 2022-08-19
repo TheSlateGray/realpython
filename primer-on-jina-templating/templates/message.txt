@@ -2,12 +2,12 @@
 
 Hello {{ name }}
 
-{% if score > 80 %}}
+{% if score > 80 %}
 I'm happy to inform you that you did very well on today's {{ test_name }}.
-{% else %}}
+{% else %}
 I'm sorry to inform you that you did not do so well on today's {{ test_name }}.
 You reached {{ score }} out of {{ max_score }} points.
-{% endif %}}
+{% endif %}
 
 See you tomorrow!
 Teacher_Name

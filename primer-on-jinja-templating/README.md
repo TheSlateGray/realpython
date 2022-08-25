@@ -41,10 +41,13 @@ To see your home page, visit `http://127.0.0.1:5000`.
 - Loops are set in `{% for loop in loops %}` to `{% endfor %}` blocks.
 - "Using `context` as a name for the collection that stores the variables for a template is a convention.
 - `**` unpacks a dictionary. [PEP 448](https://peps.python.org/pep-0448/)
+- "Variables can be modified by filters. Filters are separated from the variable by a pipe symbol `|` and may have optional arguments in parentheses. Multiple filters can be chained. The output of one filter is applied to the next." [Jinja Filters](https://jinja.palletsprojects.com/en/3.1.x/templates/#filters)
+- "Note: In contrast to using Booleans in Python, you should write Booleans in Jinja in lowercase." 
+- Use `{# comment #}` to comment out code in a Jinja HTML document, not `<!-- comment -->`.
 
 ## Original Author
 
-- **Philipp Acsany**, E-mail: [philipp@realpython.com](philipp@realpython.com)
+- **Philipp Acsany**, I removed his email to not contribute to the scrapers.
 
 ## License
 

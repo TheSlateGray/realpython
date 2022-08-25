@@ -1,5 +1,3 @@
-I ran out of time today and left off at [Include a Navigation Menu](https://realpython.com/primer-on-jinja-templating/#include-a-navigation-menu)
-
 # Primer on Jinja Templating
 
 This repository holds the code from the Real Python [Primer on Jinja Templating](https://realpython.com/primer-on-jinja-templating/) tutorial.
